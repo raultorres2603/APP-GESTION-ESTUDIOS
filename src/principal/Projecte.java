@@ -89,7 +89,7 @@ public class Projecte {
         this.nifClient = nifClient;
     }
 
-    public void setDiseñador(Dissenyador diseñador) {
+    public void setDisenyador(Dissenyador diseñador) {
         this.dissenyador = diseñador;
     }
 

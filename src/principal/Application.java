@@ -1,5 +1,7 @@
 package principal;
 
+import components.Dissenyador;
+
 import java.util.Scanner;
 
 /**
@@ -141,7 +143,52 @@ public class Application {
      tècnica de les excepcions que veurem més endavant
      */
     public static void menuDissenyadors() {
-       
+        int opcio = 0;
+        int estudioactual;
+        do {
+            int indexSel = -1;
+            System.out.println("\nSelecciona una opció");
+            System.out.println("\n0. Sortir");
+            System.out.println("\n1. Alta");
+            System.out.println("\n2. Modificar");
+            System.out.println("\n3. Llistat de dissenyadors i dissenyadores");
+            opcio = DADES.nextInt();
+            switch (opcio) {
+                case 0:
+                    break;
+                case 1:
+                        estudiActual.addDissenyador();
+                    break;
+                case 2:
+                       Dissenyador dissenyador = null;
+                       int posicion;
+                       posicion = estudiActual.selectDissenyador(dissenyador.getNIF());
+
+                       if(posicion != -1) {
+
+                       } else {
+                           System.out.println("Aquest dissenyador no está en el estudi actual.");
+                       }
+
+                    break;
+                case 3:
+                    indexSel = selectEstudi();
+                    if (indexSel >= 0) {
+                        estudis[indexSel].updateEstudi();
+                    } else {
+                        System.out.println("\nNo existeix aquest estudi");
+                    }
+                    break;
+                case 4:
+                    for (int i = 0; i < posicioEstudis; i++) {
+                        estudis[i].showEstudi();
+                    }
+                    break;
+                default:
+                    System.out.println("\nS'ha de seleccionar una opció correcta del menú.");
+                    break;
+            }
+        } while (opcio != 0);
     }
 
     /*

@@ -30,7 +30,7 @@ public class Dissenyador {
 
     public void Dissenyador() {
         this.nom = "no";
-        this.nif    = "no";
+        this.nif    = null;
         this.actiu = true;
     }
 
