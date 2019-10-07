@@ -163,6 +163,7 @@ public class Application {
                        Dissenyador dissenyador = null;
                        int posicion;
                        posicion = estudiActual.selectDissenyador(dissenyador.getNIF());
+                       
 
                        if(posicion != -1) {
 

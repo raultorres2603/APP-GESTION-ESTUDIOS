@@ -378,7 +378,7 @@ public class Estudi {
             pos = selectDissenyador(null);
 
             if (pos >= 0) {
-                projecteSel.setDiseñador(getDissenyadors()[pos]);
+                projecteSel.setDisenyador(getDissenyadors()[pos]);
             } else {
                 System.out.println("\nNo existeix aquest dissenyador o dissenyadora");
             }
