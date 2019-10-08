@@ -83,7 +83,6 @@ public class Dissenyador {
         String nif = DADES.nextLine();
         System.out.println("Nom:");
         String nom = DADES.nextLine();
-        boolean actiu = true;
 
         return new Dissenyador(nom,nif);
     }

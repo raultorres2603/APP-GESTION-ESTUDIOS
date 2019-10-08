@@ -168,7 +168,7 @@ public class Projecte {
     }
 
     public void addDissenyador(Dissenyador dissenyador) {
-        dissenyador = dissenyador;
+        this.dissenyador = dissenyador;
 
     }
 

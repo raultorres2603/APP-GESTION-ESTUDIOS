@@ -388,12 +388,46 @@ public class Application {
 
                     break;
                 case 3:
-                   estudiActual.addDissenyador();
+                    System.out.println("Introduce un codi");
+                    int codiprojecte = DADES.nextInt();
+
+                   int posicioprojecte = estudiActual.selectProjecte(codiprojecte);
+
+                    if (posicioprojecte != -1) {
+                        System.out.println("Introdueix el NIF del dissenyador");
+                        String nif = DADES.nextLine();
+
+                        int posicioDissenyador = estudiActual.selectDissenyador(nif);
+
+                        Dissenyador dissenyadorIntroduit = estudiActual.getDissenyadors()[posicioDissenyador];
+
+                        estudiActual.getProjectes()[codiprojecte].addDissenyador(dissenyadorIntroduit);
+
+                    } else {
+
+                    }
 
                     break;
 
                 case 4:
-                    estudiActual.addJardiner();
+                    System.out.println("Introduce un codi");
+                    int codiprojectee = DADES.nextInt();
+
+                    int posicioprojectee = estudiActual.selectProjecte(codiprojectee);
+
+                    if (posicioprojectee == -1) {
+                        System.out.println("No existeix el projecte");
+                        break;
+                    }
+
+                    System.out.println("Introdueix el NIF del jardiner");
+                    String niff = DADES.nextLine();
+
+                    int posicioJardiner = estudiActual.selectJardiner(niff);
+
+                    Dissenyador jardinerIntroduit = estudiActual.getDissenyadors()[posicioJardiner];
+
+                    estudiActual.getProjectes()[codiprojectee].addDissenyador(jardinerIntroduit);
 
                     break;
 
