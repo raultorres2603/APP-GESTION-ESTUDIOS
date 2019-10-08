@@ -29,8 +29,8 @@ public class Jardiner {
      */
 
     public void Jardiner () {
-        this.nom = "no";
-        this.nif = "no";
+        this.nom = "";
+        this.nif = "";
         this.actiu = true;
     }
 
@@ -123,8 +123,8 @@ public class Jardiner {
     }
 
     public void showJardiner() {
-        System.out.println("\nLes dades del jardiner o jardinera amb nif " + nif + " són:");
-        System.out.println("\nNom: " + nom);
+        System.out.println("\nLes dades del jardiner o jardinera amb nif " + this.nif + " són:");
+        System.out.println("\nNom: " + this.nom);
         torn.showTorn();
         System.out.println("\nL'estat és: ");
         

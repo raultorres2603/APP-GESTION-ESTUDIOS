@@ -29,14 +29,14 @@ public class Dissenyador {
      */
 
     public void Dissenyador() {
-        this.nom = "no";
-        this.nif    = null;
+        this.nom = "";
+        this.nif    = "";
         this.actiu = true;
     }
 
-    public Dissenyador(String nombre, String NIF) {
-        this.nom = nombre;
-        this.nif    = NIF;
+    public Dissenyador(String nom, String nif) {
+        this.nom = nom;
+        this.nif    = nif;
         this.actiu = true;
     }
 
@@ -121,8 +121,8 @@ public class Dissenyador {
     }
 
     public void showDissenyador() {
-        System.out.println("\nLes dades del dissenyador o dissenyadora amb nif " + nif + " són:");
-        System.out.println("\nNom: " + nom);
+        System.out.println("\nLes dades del dissenyador o dissenyadora amb nif " + this.nif + " són:");
+        System.out.println("\nNom: " + this.nom);
         System.out.println("\nL'estat és: ");
         
         if(actiu == true){

@@ -167,11 +167,16 @@ public class Projecte {
 
     }
 
+    public void addDissenyador(Dissenyador dissenyador) {
+        dissenyador = dissenyador;
+
+    }
+
     public void showProjecte() {
-        System.out.println("\nLes dades del projecte amb codi " + codi + " són:");
-        System.out.println("\nNIF client: " + nifClient);
-        System.out.println("\nPressupost: " + pressupost);
-        dissenyador.showDissenyador();
+        System.out.println("\nLes dades del projecte amb codi " + this.codi + " són:");
+        System.out.println("\nNIF client: " + this.nifClient);
+        System.out.println("\nPressupost: " + this.pressupost);
+        this.dissenyador.showDissenyador();
         
         if(finalitzat){
             System.out.println("\nEl projecte està finalitzat");
@@ -180,7 +185,7 @@ public class Projecte {
         }
 
         for (int i = 0; i < posicioJardiners; i++) {
-            jardiners[i].showJardiner();
+            this.jardiners[i].showJardiner();
         }
     }
     

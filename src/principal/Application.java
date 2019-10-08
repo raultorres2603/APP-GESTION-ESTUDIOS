@@ -180,7 +180,7 @@ public class Application {
                 case 3:
                     Dissenyador[] dissenyadors = estudiActual.getDissenyadors();
 
-                    for (int i = 0; i < posicioEstudis; i++) {
+                    for (int i = 0; i < estudiActual.getPosicioDissenyadors(); i++) {
                         dissenyadors[i].showDissenyador();
                     }
 
@@ -250,7 +250,7 @@ public class Application {
                 case 4:
                     Jardiner[] jardiners = estudiActual.getJardiners();
 
-                    for (int i = 0; i < posicioEstudis; i++) {
+                    for (int i = 0; i < estudiActual.getPosicioJardiners(); i++) {
                         jardiners[i].showJardiner();
                     }
                     break;
@@ -317,7 +317,7 @@ public class Application {
                 case 3:
                     Torn[] torns = estudiActual.getTorns();
 
-                    for (int i = 0; i < posicioEstudis; i++) {
+                    for (int i = 0; i < estudiActual.getPosicioTorns(); i++) {
                         torns[i].showTorn();
                     }
 
@@ -388,7 +388,7 @@ public class Application {
 
                     break;
                 case 3:
-                    estudiActual.addDissenyador();
+                   estudiActual.addDissenyador();
 
                     break;
 
@@ -400,7 +400,7 @@ public class Application {
                 case 5:
                     Projecte[] projectes = estudiActual.getProjectes();
 
-                    for (int i = 0; i < posicioEstudis; i++) {
+                    for (int i = 0; i < estudiActual.getPosicioProjectes(); i++) {
                         projectes[i].showProjecte();
                     }
 

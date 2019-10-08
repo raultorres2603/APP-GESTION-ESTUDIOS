@@ -107,16 +107,48 @@ public class Estudi {
         this.codi = codi;
     }
 
+    public int getPosicioDissenyadors() {
+        return this.posicioDissenyadors;
+    }
+
+    public void setPosicioDissenyadors(int posicioDissenyadors) {
+        this.posicioDissenyadors = posicioDissenyadors;
+    }
+
+    public int getPosicioJardiners() {
+        return this.posicioJardiners;
+    }
+
+    public void setPosicioJardiners(int posicioJardiners) {
+        this.posicioJardiners = posicioJardiners;
+    }
+
+    public int getPosicioTorns() {
+        return this.posicioTorns;
+    }
+
+    public void setPosicioTorns(int posicioTorns) {
+        this.posicioTorns = posicioTorns;
+    }
+
+    public int getPosicioProjectes() {
+        return this.posicioProjectes;
+    }
+
+    public void setPosicioProjectes(int posicioProjectes) {
+        this.posicioProjectes = posicioProjectes;
+    }
+
     /*
-                    TODO
-                     Paràmetres: cap
-                     Accions:
-                     - Demanar a l'usuari les dades per consola per crear un nou estudi. Les dades
-                     a demanar són les que li passem per paràmetre al constructor.
-                     - Heu de tenir en compte que el nom i adreça poden ser frases, per exemple, New Estudi
-                     o C/Gran Via, 4.
-                     Retorn: El nou estudi creat.
-                     */
+                        TODO
+                         Paràmetres: cap
+                         Accions:
+                         - Demanar a l'usuari les dades per consola per crear un nou estudi. Les dades
+                         a demanar són les que li passem per paràmetre al constructor.
+                         - Heu de tenir en compte que el nom i adreça poden ser frases, per exemple, New Estudi
+                         o C/Gran Via, 4.
+                         Retorn: El nou estudi creat.
+                         */
     public static Estudi addEstudi() {
         System.out.println("Introduceix el nom de l'estudi: ");
         String nom = DADES.nextLine();

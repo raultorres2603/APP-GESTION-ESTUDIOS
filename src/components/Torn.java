@@ -132,10 +132,10 @@ public class Torn {
     }
 
     public void showTorn() {
-        System.out.println("\nLes dades del torn amb codi " + codi + " són:");
-        System.out.println("\nNom: " + nom);
-        System.out.println("\nHora d'inici: "+horaInici);
-        System.out.println("\nHora d'acabament: "+horaAcabament);
+        System.out.println("\nLes dades del torn amb codi " + this.codi + " són:");
+        System.out.println("\nNom: " + this.nom);
+        System.out.println("\nHora d'inici: "+ this.horaInici);
+        System.out.println("\nHora d'acabament: "+ this.horaAcabament);
     }
 
     /*
