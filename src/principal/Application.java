@@ -1,6 +1,8 @@
 package principal;
 
 import components.Dissenyador;
+import components.Jardiner;
+import components.Torn;
 
 import java.util.Scanner;
 
@@ -162,31 +164,26 @@ public class Application {
                 case 2:
                        Dissenyador dissenyador = null;
                        int posicion;
-                       posicion = estudiActual.selectDissenyador(dissenyador.getNIF());
+                       System.out.println("Introduce un NIF: ");
+                       String nif = DADES.nextLine();
 
+                       posicion = estudiActual.selectDissenyador(nif);
 
                        if(posicion != -1) {
-
+                        estudiActual.getDissenyadors()[posicion].updateDissenyador();
                        } else {
                            System.out.println("Aquest dissenyador no está en el estudi actual.");
                        }
 
                     break;
+
                 case 3:
-                    indexSel = selectEstudi();
-                    if (indexSel >= 0) {
-                        estudis[indexSel].updateEstudi();
-                    } else {
-                        System.out.println("\nNo existeix aquest estudi");
+                    Dissenyador[] dissenyadors = estudiActual.getDissenyadors();
+
+                    for (int i = 0; i <= dissenyadors.length; i++) {
+                        dissenyadors[i].showDissenyador();
                     }
-                    break;
-                case 4:
-                    for (int i = 0; i < posicioEstudis; i++) {
-                        estudis[i].showEstudi();
-                    }
-                    break;
-                default:
-                    System.out.println("\nS'ha de seleccionar una opció correcta del menú.");
+
                     break;
             }
         } while (opcio != 0);
@@ -215,7 +212,53 @@ public class Application {
      tècnica de les excepcions que veurem més endavant
      */
     public static void menuJardiners() {
-        
+        int opcio = 0;
+        int estudioactual;
+        do {
+            int indexSel = -1;
+            System.out.println("\nSelecciona una opció");
+            System.out.println("\n0. Sortir");
+            System.out.println("\n1. Alta");
+            System.out.println("\n2. Modificar");
+            System.out.println("\n3. Assignar torn");
+            System.out.println("\n4. Llistat de jardiners i jardineres");
+            opcio = DADES.nextInt();
+            switch (opcio) {
+                case 0:
+                    break;
+                case 1:
+                    estudiActual.addJardiner();
+                    break;
+                case 2:
+                    Jardiner jardiner = null;
+                    int posicion;
+                    System.out.println("Introduce un NIF: ");
+                    String nif = DADES.nextLine();
+
+                    posicion = estudiActual.selectJardiner(nif);
+
+                    if(posicion != -1) {
+                        estudiActual.getJardiners()[posicion].updateJardiner();
+                    } else {
+                        System.out.println("Aquest jardiner no está en el estudi actual.");
+                    }
+
+                    break;
+                case 3:
+                   estudiActual.addTornJardiner();
+                    break;
+                case 4:
+                    Jardiner[] jardiners = estudiActual.getJardiners();
+
+                    for (int i = 0; i <= jardiners.length; i++) {
+                        jardiners[i].showJardiner();
+                    }
+                    break;
+                default:
+                    System.out.println("\nS'ha de seleccionar una opció correcta del menú.");
+                    break;
+            }
+        } while (opcio != 0);
     }
 
     /*
@@ -239,7 +282,52 @@ public class Application {
      tècnica de les excepcions que veurem més endavant
      */
     public static void menuTorns() {
-        
+        int opcio = 0;
+        int estudioactual;
+        do {
+            int indexSel = -1;
+            System.out.println("\nSelecciona una opció");
+            System.out.println("\n0. Sortir");
+            System.out.println("\n1. Alta");
+            System.out.println("\n2. Modificar");
+            System.out.println("\n3. Llista de torns");
+
+            opcio = DADES.nextInt();
+            switch (opcio) {
+                case 0:
+                    break;
+                case 1:
+                    estudiActual.addTorn();
+                    break;
+                case 2:
+                    Torn torn = null;
+                    int posicion;
+                    System.out.println("Introduce el codigo del Torn: ");
+                    String codi = DADES.nextLine();
+
+                    posicion = estudiActual.selectTorn(codi);
+
+                    if(posicion != -1) {
+                        estudiActual.getTorns()[posicion].updateTorn();
+                    } else {
+                        System.out.println("Aquest torn no está en el estudi actual.");
+                    }
+
+                    break;
+                case 3:
+                    Torn[] torns = estudiActual.getTorns();
+
+                    for (int i = 0; i <= torns.length; i++) {
+                        torns[i].showTorn();
+                    }
+
+                    break;
+
+                default:
+                    System.out.println("\nS'ha de seleccionar una opció correcta del menú.");
+                    break;
+            }
+        } while (opcio != 0);
     }
 
     /*
