@@ -85,7 +85,7 @@ public class Dissenyador {
         String nom = DADES.nextLine();
         boolean actiu = true;
 
-        return new Dissenyador(nif,nom);
+        return new Dissenyador(nom,nif);
     }
 
     /*

@@ -180,7 +180,7 @@ public class Application {
                 case 3:
                     Dissenyador[] dissenyadors = estudiActual.getDissenyadors();
 
-                    for (int i = 0; i <= dissenyadors.length; i++) {
+                    for (int i = 0; i < posicioEstudis; i++) {
                         dissenyadors[i].showDissenyador();
                     }
 
@@ -250,7 +250,7 @@ public class Application {
                 case 4:
                     Jardiner[] jardiners = estudiActual.getJardiners();
 
-                    for (int i = 0; i <= jardiners.length; i++) {
+                    for (int i = 0; i < posicioEstudis; i++) {
                         jardiners[i].showJardiner();
                     }
                     break;
@@ -317,7 +317,7 @@ public class Application {
                 case 3:
                     Torn[] torns = estudiActual.getTorns();
 
-                    for (int i = 0; i <= torns.length; i++) {
+                    for (int i = 0; i < posicioEstudis; i++) {
                         torns[i].showTorn();
                     }
 
@@ -370,28 +370,38 @@ public class Application {
                 case 0:
                     break;
                 case 1:
-                    estudiActual.addTorn();
+                    estudiActual.addProjecte();
                     break;
                 case 2:
-                    Torn torn = null;
+                    Projecte projecte = null;
                     int posicion;
-                    System.out.println("Introduce el codigo del Torn: ");
-                    String codi = DADES.nextLine();
+                    System.out.println("Introduce el codigo del projecte: ");
+                    int codi = DADES.nextInt();
 
-                    posicion = estudiActual.selectTorn(codi);
+                    posicion = estudiActual.selectProjecte(codi);
 
                     if(posicion != -1) {
-                        estudiActual.getTorns()[posicion].updateTorn();
+                        estudiActual.getProjectes()[posicion].updateProjecte();
                     } else {
-                        System.out.println("Aquest torn no está en el estudi actual.");
+                        System.out.println("Aquest projecte no está en el estudi actual.");
                     }
 
                     break;
                 case 3:
-                    Torn[] torns = estudiActual.getTorns();
+                    estudiActual.addDissenyador();
 
-                    for (int i = 0; i <= torns.length; i++) {
-                        torns[i].showTorn();
+                    break;
+
+                case 4:
+                    estudiActual.addJardiner();
+
+                    break;
+
+                case 5:
+                    Projecte[] projectes = estudiActual.getProjectes();
+
+                    for (int i = 0; i < posicioEstudis; i++) {
+                        projectes[i].showProjecte();
                     }
 
                     break;
