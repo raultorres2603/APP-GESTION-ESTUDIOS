@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3cc58bf7-2ef1-4256-abdb-9fb46f63a2cf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/principal/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/principal/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/principal/Projecte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/principal/Projecte.java" afterDir="false" />
-    </list>
+    <list default="true" id="3cc58bf7-2ef1-4256-abdb-9fb46f63a2cf" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -182,7 +178,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -277,7 +273,7 @@
       <workItem from="1570194833385" duration="9243000" />
       <workItem from="1570457037882" duration="927000" />
       <workItem from="1570551372800" duration="10582000" />
-      <workItem from="1570636458976" duration="1607000" />
+      <workItem from="1570636458976" duration="1994000" />
     </task>
     <task id="LOCAL-00001" summary="08/10/19 18:58">
       <created>1570553916180</created>
@@ -290,7 +286,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33266000" />
+    <option name="totallyTimeSpent" value="33653000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
