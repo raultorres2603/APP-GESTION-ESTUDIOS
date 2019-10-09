@@ -116,7 +116,7 @@ public class Projecte {
     public static Projecte addProjecte() {
     // Dissenyador diseñador, Jardiner[] jardiners, String nif
         System.out.println("Introdueix el NIF");
-        String nif = DADES.nextLine();
+        String nif = DADES.next();
         System.out.println("Introdueix el pressupost");
         double pressupost = DADES.nextDouble();
 

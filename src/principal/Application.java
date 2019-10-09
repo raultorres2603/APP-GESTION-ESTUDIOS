@@ -388,32 +388,28 @@ public class Application {
 
                     break;
                 case 3:
-                    System.out.println("Introduce un codi");
-                    int codiprojecte = DADES.nextInt();
 
-                   int posicioprojecte = estudiActual.selectProjecte(codiprojecte);
+                    int posicioDissenyador;
+                   int posicioprojecte = estudiActual.selectProjecte(null);
 
-                    if (posicioprojecte != -1) {
+                    if (posicioprojecte == -1) {
+                        System.out.println("No existeix el projecte");
+                    } else {
+
                         System.out.println("Introdueix el NIF del dissenyador");
-                        String nif = DADES.nextLine();
+                        String nif = DADES.next();
 
-                        int posicioDissenyador = estudiActual.selectDissenyador(nif);
+                        posicioDissenyador = estudiActual.selectDissenyador(nif);
 
                         Dissenyador dissenyadorIntroduit = estudiActual.getDissenyadors()[posicioDissenyador];
 
-                        estudiActual.getProjectes()[codiprojecte].addDissenyador(dissenyadorIntroduit);
-
-                    } else {
-
+                        estudiActual.getProjectes()[posicioprojecte].addDissenyador(dissenyadorIntroduit);
                     }
 
                     break;
 
                 case 4:
-                    System.out.println("Introduce un codi");
-                    int codiprojectee = DADES.nextInt();
-
-                    int posicioprojectee = estudiActual.selectProjecte(codiprojectee);
+                    int posicioprojectee = estudiActual.selectProjecte(null);
 
                     if (posicioprojectee == -1) {
                         System.out.println("No existeix el projecte");
@@ -421,13 +417,13 @@ public class Application {
                     }
 
                     System.out.println("Introdueix el NIF del jardiner");
-                    String niff = DADES.nextLine();
+                    String niff = DADES.next();
 
                     int posicioJardiner = estudiActual.selectJardiner(niff);
 
                     Dissenyador jardinerIntroduit = estudiActual.getDissenyadors()[posicioJardiner];
 
-                    estudiActual.getProjectes()[codiprojectee].addDissenyador(jardinerIntroduit);
+                    estudiActual.getProjectes()[posicioprojectee].addDissenyador(jardinerIntroduit);
 
                     break;
 
