@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3cc58bf7-2ef1-4256-abdb-9fb46f63a2cf" name="Default Changelist" comment="">
+    <list default="true" id="3cc58bf7-2ef1-4256-abdb-9fb46f63a2cf" name="Default Changelist" comment="08/10/19 18:58">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/principal/Estudi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/principal/Estudi.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,7 +45,7 @@
     <session id="1428529466">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.7" value="2" />
@@ -112,8 +112,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/principal/Estudi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="348" column="26" lean-forward="true" selection-start-line="348" selection-start-column="26" selection-end-line="348" selection-end-column="26" />
+            <state relative-caret-position="357">
+              <caret line="356" column="16" lean-forward="true" selection-start-line="356" selection-start-column="16" selection-end-line="356" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2821#2822#0" expanded="true" />
@@ -219,6 +219,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570562062051" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -278,7 +279,7 @@
       <workItem from="1570551372800" duration="10582000" />
       <workItem from="1570636458976" duration="2204000" />
       <workItem from="1570799610723" duration="2375000" />
-      <workItem from="1570803088760" duration="68000" />
+      <workItem from="1570803088760" duration="245000" />
     </task>
     <task id="LOCAL-00001" summary="08/10/19 18:58">
       <created>1570553916180</created>
@@ -291,7 +292,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36306000" />
+    <option name="totallyTimeSpent" value="36483000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -304,7 +305,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29425114" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -343,6 +343,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Practica-Jardineros" />
+    </ignored-roots>
     <MESSAGE value="08/10/19 18:58" />
     <option name="LAST_COMMIT_MESSAGE" value="08/10/19 18:58" />
   </component>
@@ -409,8 +412,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/principal/Estudi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="348" column="26" lean-forward="true" selection-start-line="348" selection-start-column="26" selection-end-line="348" selection-end-column="26" />
+        <state relative-caret-position="357">
+          <caret line="356" column="16" lean-forward="true" selection-start-line="356" selection-start-column="16" selection-end-line="356" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2821#2822#0" expanded="true" />
