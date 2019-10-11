@@ -353,7 +353,7 @@ public class Estudi {
 
         if (posicion == -1) {
             this.projectes[this.posicioProjectes] = projecte;
-            posicioProjectes++;
+            this.posicioProjectes++;
         } else {
             System.out.println("El projecte ja existeix");
         }
