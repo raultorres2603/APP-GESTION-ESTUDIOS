@@ -154,9 +154,9 @@ public class Torn {
      */
     public static String horesTorn() {
         System.out.println("Hora: ");
-        String horas =  DADES.nextLine();
+        String horas =  DADES.next();
         System.out.println("Minuts: ");
-        String minutos =  DADES.nextLine();
+        String minutos =  DADES.next();
 
         return(horas + ":" + minutos);
 

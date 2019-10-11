@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cc58bf7-2ef1-4256-abdb-9fb46f63a2cf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DA2EAC7GestioEstudiPaisatgistaEnunciat/principal/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DA2EAC7GestioEstudiPaisatgistaEnunciat/principal/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dissenyador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dissenyador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Jardiner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Jardiner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Torn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Torn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/principal/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/principal/Application.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,11 +81,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Dissenyador.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="113" column="33" selection-start-line="113" selection-start-column="33" selection-end-line="113" selection-end-column="33" />
+            <state relative-caret-position="154">
+              <caret line="115" column="33" lean-forward="true" selection-start-line="115" selection-start-column="33" selection-end-line="115" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -104,11 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Torn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="123" column="25" lean-forward="true" selection-start-line="123" selection-start-column="25" selection-end-line="123" selection-end-column="25" />
+            <state relative-caret-position="222">
+              <caret line="150" column="45" lean-forward="true" selection-start-line="150" selection-start-column="45" selection-end-line="150" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -173,9 +168,9 @@
         <option value="$PROJECT_DIR$/src/principal/Projecte.java" />
         <option value="$PROJECT_DIR$/src/principal/Application.java" />
         <option value="$PROJECT_DIR$/src/principal/Estudi.java" />
-        <option value="$PROJECT_DIR$/src/components/Torn.java" />
         <option value="$PROJECT_DIR$/src/components/Jardiner.java" />
         <option value="$PROJECT_DIR$/src/components/Dissenyador.java" />
+        <option value="$PROJECT_DIR$/src/components/Torn.java" />
       </list>
     </option>
   </component>
@@ -281,7 +276,7 @@
       <workItem from="1570457037882" duration="927000" />
       <workItem from="1570551372800" duration="10582000" />
       <workItem from="1570636458976" duration="2204000" />
-      <workItem from="1570799610723" duration="1997000" />
+      <workItem from="1570799610723" duration="2187000" />
     </task>
     <task id="LOCAL-00001" summary="08/10/19 18:58">
       <created>1570553916180</created>
@@ -294,7 +289,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35860000" />
+    <option name="totallyTimeSpent" value="36050000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -407,13 +402,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Torn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="123" column="25" lean-forward="true" selection-start-line="123" selection-start-column="25" selection-end-line="123" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Jardiner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
@@ -423,8 +411,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Dissenyador.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="113" column="33" selection-start-line="113" selection-start-column="33" selection-end-line="113" selection-end-column="33" />
+        <state relative-caret-position="154">
+          <caret line="115" column="33" lean-forward="true" selection-start-line="115" selection-start-column="33" selection-end-line="115" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Torn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="150" column="45" lean-forward="true" selection-start-line="150" selection-start-column="45" selection-end-line="150" selection-end-column="45" />
         </state>
       </provider>
     </entry>
