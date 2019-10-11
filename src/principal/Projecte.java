@@ -74,7 +74,7 @@ public class Projecte {
     }
 
     public double getPressupost() {
-        return pressupost;
+        return this.pressupost;
     }
 
     public void setPressupost(double pressupost) {
