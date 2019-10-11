@@ -105,13 +105,13 @@ public class Dissenyador {
         this.showDissenyador();
 
         System.out.println("Introduceix el nou NIF");
-        String nif = DADES.nextLine();
+        String nif = DADES.next();
         this.setNIF(nif);
         System.out.println("Introduceix el nou nom");
-        String nom = DADES.nextLine();
+        String nom = DADES.next();
         this.setNombre(nom);
         System.out.println("Introduceix el nou actiu (Si está actiu 1, si no 0.");
-        String actiu = DADES.nextLine();
+        String actiu = DADES.next();
         if(actiu == "1") {
             this.setActivo(true);
         } else {

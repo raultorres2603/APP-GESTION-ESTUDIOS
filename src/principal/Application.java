@@ -165,7 +165,7 @@ public class Application {
                        Dissenyador dissenyador = null;
                        int posicion;
                        System.out.println("Introduce un NIF: ");
-                       String nif = DADES.nextLine();
+                       String nif = DADES.next();
 
                        posicion = estudiActual.selectDissenyador(nif);
 
@@ -233,7 +233,7 @@ public class Application {
                     Jardiner jardiner = null;
                     int posicion;
                     System.out.println("Introduce un NIF: ");
-                    String nif = DADES.nextLine();
+                    String nif = DADES.next();
 
                     posicion = estudiActual.selectJardiner(nif);
 

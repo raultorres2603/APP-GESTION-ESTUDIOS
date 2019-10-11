@@ -117,10 +117,10 @@ public class Torn {
         this.showTorn();
 
         System.out.println("Introduceix el codi");
-        String codi = DADES.nextLine();
+        String codi = DADES.next();
         this.setCodigo(codi);
         System.out.println("Introduceix el nom");
-        String nom = DADES.nextLine();
+        String nom = DADES.next();
         this.setNom(nom);
         System.out.println("Introduceix l'hora d'inici");
         String horainici = horesTorn();
